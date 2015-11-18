@@ -68,4 +68,5 @@ Temporary Items
 # App specific
 dist/
 
-# src/js/jquery.js
+#
+src/js/jquery.js
