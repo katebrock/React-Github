@@ -7,7 +7,7 @@ import Sidebar from './sidebar';
 import Main from './main';
 
 
-
+//this App tag is being called down at the ReactDOM.render
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -29,11 +29,11 @@ class App extends React.Component {
 
  render() {
    return (
-     <main>
+     <div className="wrapper">
        <Header/>
        <Sidebar user = {this.state.user}/>
        <Main repos = {this.state.repos}/>
-     </main>
+     </div>
    )
  }
 }

@@ -17,7 +17,7 @@ class Header extends React.Component {
               <a href="#">Issues</a>
               <a href="#">Gist</a>
             </nav>
-            <nav className="icons">
+            <nav className="usernav">
               <a href="#">
                 <span className="octicon octicon-bell"></span>
               </a>

@@ -5,16 +5,18 @@ import ReactDOM from 'react-dom';
 class Sidebar extends React.Component {
  render() {
    return (
-     <div className="main">
+     <div className="mainaside">
      <aside>
       <img className="avatar" src={this.props.user.avatar_url}/>
       <span className="name">{this.props.user.name}</span>
       <span className="username">{this.props.user.login}</span>
       <div className="localjoin">
-        <span className="octicon octicon-location"></span>
-        <span className="location">{this.props.user.location}</span>
-        <span className="octicon octicon-clock"></span>
-        <span className="joined">Joined on Oct. 4, 2015</span>
+        <ul className="userDetails">
+          <li className="octicon octicon-location"></li>
+          <li className="location">{this.props.user.location}</li>
+          <li className="octicon octicon-clock"></li>
+          <li className="joined">Joined on Oct. 4, 2015</li>
+        </ul>
       </div>
       <section className="followinginfo">
         <span className="followers">{this.props.user.followers}</span>

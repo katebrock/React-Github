@@ -1,6 +1,7 @@
 @import '../../dist/bower_components/bourbon/app/assets/stylesheets/bourbon';
 // $visual-grid:true;
 @import '../../dist/bower_components/neat/app/assets/stylesheets/neat';
+@import '../../dist/bower_components/octicons/octicons/octicons.scss';
 
 
 body{
@@ -46,7 +47,7 @@ body{
     }
   }
 
-.icons{
+.usernav{
   @include span-columns(3.8);
   @include omega();
   padding-top: 14px;
@@ -306,7 +307,7 @@ article{
 .right{
   padding-top: 23px;
 }
-.stargazers_count{
+.star{
   color: #888888;
   font-size: 12px;
 

@@ -14,7 +14,8 @@
     "dist/bower_components"
   ],
   "dependencies": {
-    "neat": "~1.7.2"
+    "neat": "~1.7.2",
+    "octicons": "~3.3.0"
   },
   "homepage": "https://github.com/katebrock/React-Github",
   "description": "",
